@@ -1,0 +1,21 @@
+{
+  "name": "tp01",
+  "version": "1.0.0",
+  "description": "TP01 con totito",
+  "license": "ISC",
+  "author": "Augusto Perez Rodriguez, Toto Epz, Feli Alberto Rodrigo Plat",
+  "type": "module",
+  "main": "index.js",
+
+  "repository": {
+    "type": "git" ,
+    "url": "https://github.com/AugustoPerezRodriguez/02---Node-inicial.git"
+  },
+  "scripts": {
+    "ej1": "node src/modules/ej1.js",
+    "ej2": "node src/modules/ej2.js",
+
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
