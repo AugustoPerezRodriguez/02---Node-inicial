@@ -6,9 +6,8 @@
   "author": "Augusto Perez Rodriguez, Toto Epz, Feli Alberto Rodrigo Plat",
   "type": "module",
   "main": "index.js",
-
   "repository": {
-    "type": "git" ,
+    "type": "git",
     "url": "https://github.com/AugustoPerezRodriguez/02---Node-inicial.git"
   },
   "scripts": {
@@ -17,7 +16,12 @@
     "ej3": "node src/modules/ej3.js",
     "ej4": "node src/modules/ej4.js",
     "ej5": "node src/modules/ej5.js",
+    "ej6": "node src/modules/ej6.js",
+    "ej7": "node src/modules/ej7.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "currency-map-country": "^1.0.12"
   }
 }
