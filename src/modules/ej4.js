@@ -18,11 +18,11 @@ async function copiar(origen, destino){
         archivoOrigen = await fsPromises.open(origen, 'r'); 
         archivoDestino = await fsPromises.open(destino, 'r'); 
 
-        const contenido = await archivoOrigen.read('utf-8');
+        const contenido = await archivoOrigen.readFile('utf-8');
 
         await archivoDestino.writeFile(contenido);
 
-        console.log("Archivo copiado correctamente 🚀");
+        console.log("Archivo copiado correctamente");
 
     } catch (error) {
         console.log("Error:", error);
